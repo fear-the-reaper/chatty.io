@@ -1,0 +1,21 @@
+{
+  "name": "chatty.io",
+  "version": "1.0.0",
+  "description": "A Chat App",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js -e js, hbs, css"
+  },
+  "author": "Reaper",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "path": "^0.12.7",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
